@@ -10,7 +10,7 @@ class indexController extends Controller {
 	
 	public function run() {
 		
-	 	$this->view->display("index/index");
+	 	$this->view->display("index/show");
 	}
 	public function test(){
 		echo "action ++++ test";

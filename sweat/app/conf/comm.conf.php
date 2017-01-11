@@ -10,6 +10,11 @@
 /* 框架全局配置变量 */
 $InitPHP_conf = array();
 /*********************************基础配置*****************************************/
+
+define('ROOT_PATH', 'http://' . $_SERVER["SERVER_ADDR"] . '/');
+
+define('PHOTO_PATH', ROOT_PATH . 'photo' . '/');
+
 /**
  * 站点URL配置
  * 必选参数
